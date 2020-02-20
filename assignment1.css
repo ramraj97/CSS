@@ -1,0 +1,59 @@
+body{
+	background: #D8DA3D;
+}
+.nav{
+	width: 200px;
+	height: 100%;
+	position: fixed;
+
+}
+
+.containt{
+	width: 80%;
+	height: 100%;
+	margin-left: 200px;
+	padding: 10px;
+	position: fixed;
+}
+
+.violet{
+	color: #80007E;
+}
+
+ .one{
+ 	border:  1px dashed #000000;
+ 	padding: 5px;
+ 	text-align: left;
+ }
+
+ .two{
+ 	border:  1px dashed red ;
+ 	padding: 5px;
+ 	text-align: right;
+ }
+
+ .three{
+ 	border:  1px dashed blue;
+ 	padding: 5px;
+ 	text-align: center;
+ }
+
+
+
+
+
+ul li:nth-child(odd){
+	list-style: none;
+	background: #ffffff;
+	margin: 5px;
+	color: #80007E;
+	border-right:  10px solid #FF7F00;
+}
+
+ul li:nth-child(even){
+	list-style: none;
+	background: #ffffff;
+	margin: 5px;
+	color: #80007E;
+	border-right:  10px solid #0000FF;
+}

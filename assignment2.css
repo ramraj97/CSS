@@ -1,0 +1,63 @@
+.container{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	 
+	width: 800px;
+	height: 500px;
+	background: white;
+	outline: 2px solid ;
+	padding: 20px;
+
+	 
+}
+
+.upper{
+	position: fixed;
+	width: 800px;
+	height: 200px;
+	background: #ff9999;
+}
+
+.headtext{
+	padding-left: 50px;
+	color: #495052;
+	font-family: sans-serif;
+}
+
+.left{
+	position: fixed;
+	width: 600px;
+	height: 295px;
+	background-image: url("Assignment-2-img-1.jpg");
+	margin-top: 205px;
+	background-size: cover;
+	outline: 5px solid yellow ;
+}
+
+.lefttext{
+	color: white;
+	font-size: xx-large;
+	padding-top:  50px;
+	padding-left: 10px;
+	font-family: serif;
+
+}
+
+.right{
+	position: fixed;
+	width: 195px;
+	height: 300px;
+	background: #ECECFB;
+	background-image: url("Assignment-2-img-2.png");
+	margin-top: 200px;
+	margin-left: 605px;
+	background-repeat: no-repeat;
+}
+
+.righttext{
+	color: #495052;
+	margin-top: 220px;
+	text-align: center;
+}
